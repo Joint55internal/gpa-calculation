@@ -1,7 +1,7 @@
 // This program can be used to easily calculate your GPA
 // 
 /*========================================
- *        GPA calculation version 1.1
+ *        GPA calculation version 1.11
  *         
  *         (C) 2023 Toshiki
  *  
@@ -50,15 +50,27 @@ void gpa_calc(void) {
     T4 = (T / 5.0) * 4.0;
 
     //print the result with information about the student
-    printf("=========================\n");
-    printf("StudentName: %s\n", studentName);
-    printf("StudentID: %d\n", studentID);
-    printf("Number of course: %d\n", totalCourses);
-    printf("Number of course You've received Credit: %d\n", B);
-    printf ("Your GPA(5): %.2f\n", T);
-    printf ("Your GPA(4): %.2f\n", T4);
-    printf ("* If this is below 0, Your imput might be incorrect: %d\n", C);
-    printf("=========================\n");
+    if (C == 0 || C > 0) {
+        printf("=========================\n");
+        printf("StudentName: %s\n", studentName);
+        printf("StudentID: %d\n", studentID);
+        printf("Number of course: %d\n", totalCourses);
+        printf("Number of course You've received Credit: %d\n", B);
+        printf ("Your GPA(5): %.2f\n", T);
+        printf ("Your GPA(4): %.2f\n", T4);
+        printf("=========================\n");
+    }
+    else if (C < 0) { 
+        printf("=========================\n");
+        printf ("Warning!: Check it again, You probably made a mistake!\n");
+        printf("StudentName: %s\n", studentName);
+        printf("StudentID: %d\n", studentID);
+        printf("Number of course: %d\n", totalCourses);
+        printf("Number of course You've received Credit: %d\n", B);
+        printf ("Your GPA(5): %.2f\n", T);
+        printf ("Your GPA(4): %.2f\n", T4);
+        printf("=========================\n");
+    }
 
 }
 
