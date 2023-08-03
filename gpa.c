@@ -81,11 +81,12 @@ void gpa_calc(void) {
 
     // Calculate GPA with school's rules
     float totalPoints = (sScoreAA * 5) + (sScoreA * 4) + (sScoreB * 3) + (sScoreC * 2) + (sScoreF * 0);
+    float totalPoints4 = (sScoreAA * 4) + (sScoreA * 4) + (sScoreB * 3) + (sScoreC * 2) + (sScoreF * 0);
     int B = sScoreAA + sScoreA + sScoreB + sScoreC + sScoreF;
     T = totalPoints / totalCourses;
     C = totalCourses - B;
     // Calculate 5 scale GPA to 4 scale GPA
-    T4 = (T / 5.0) * 4.0;
+    T4 = totalPoints4 / totalCourses;
 
     // Print the result with information about the student
      if (C == 0 || C > 0) {
