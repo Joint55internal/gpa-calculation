@@ -19,7 +19,7 @@ git clone https://github.com/Joint55internal/gpa-calculation.git
 ```
 2. Navigate to Stucus:
 ```console
-cd Stucus
+cd gpa-calculation
 ```
 3. Compile the source code:
 ```console
