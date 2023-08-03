@@ -35,19 +35,19 @@ Example
 Enter your name: GPA
 Hello, GPA
 Enter Student ID: 123
-Total Number of course : 10
-Number of A+s: 4
-Number of As: 2
-Number of Bs: 3
-Number of Cs: 0
+Number of A+ grades: 5
+Number of A grades: 5
+Number of B grades: 0
+Number of C grades: 0
+Number of F grades: 0
 =========================
-StudentName: GPA
-StudentID: 123
-Number of course: 10
-Number of course You've received Credit: 9
-Your GPA(5): 3.000000
-Your GPA(4): 2.400000
-* If this is below 0, Your imput might be incorrect: 1
+Student Name: GPA
+Student ID: 123
+Number of courses: 10
+Number of courses you've received Credit: 10
+Your GPA (5): 4.50
+Your GPA (4): 3.60
+=========================
 ```
 # Features
 
