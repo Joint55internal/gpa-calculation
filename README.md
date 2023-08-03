@@ -26,7 +26,7 @@ cd gpa-calculation
 gcc gpa.c -o gpa
 ```
 # Usage
-To use calculate your GPA, execute the following command:
+To calculate your GPA, execute the following command:
 ```console
 ./gpa
 ```
