@@ -1,5 +1,4 @@
 // This program can be used to easily calculate your GPA
-// This can also suggest by parents to what to do according to student's grade
 // 
 /*========================================
  *        GPA calculation version 1.1
