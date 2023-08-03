@@ -85,7 +85,7 @@ void gpa_calc(void) {
     int B = sScoreAA + sScoreA + sScoreB + sScoreC + sScoreF;
     T = totalPoints / totalCourses;
     C = totalCourses - B;
-    // Calculate 5 scale GPA to 4 scale GPA
+    // Calculate 4 scale GPA
     T4 = totalPoints4 / totalCourses;
 
     // Print the result with information about the student

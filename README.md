@@ -46,7 +46,7 @@ Student ID: 123
 Number of courses: 10
 Number of courses you've received Credit: 10
 Your GPA (5): 4.50
-Your GPA (4): 3.60
+Your GPA (4): 4.00
 =========================
 ```
 # Features
