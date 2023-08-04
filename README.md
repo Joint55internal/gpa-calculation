@@ -28,7 +28,7 @@ cd gpa-calculation
 <summary><h3>Install gcc if you don't have yet</h3></summary>
 
 # _Mac OS_
-Install homebrew
+Install homebrew (https://brew.sh/)
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
