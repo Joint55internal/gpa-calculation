@@ -56,7 +56,7 @@ sudo apt install gcc
 etc...
 
 </details>
-
+Compile the source code:
 ```console
 gcc gpa.c -o gpa
 ```
