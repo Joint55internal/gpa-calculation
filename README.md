@@ -42,6 +42,11 @@ sudo apt install gcc
 etc...
 
 _Mac OS_
+Install homebrew
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+Install gcc
 ```
 brew install gcc
 ```
