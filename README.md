@@ -37,7 +37,11 @@ Install gcc
 brew install gcc
 ```
 # _Windows_
-Download & Run setup-x86_64.exe from https://www.cygwin.com/install.html
+> Download & Run setup-x86_64.exe from https://www.cygwin.com/install.html
+>
+> Select Packages: after selecting the download site on the app, it will ask you to Select the Packages
+>
+> Type gcc-core and continue
 ```
 jj
 ```
