@@ -28,20 +28,6 @@ cd gpa-calculation
 <details id=0>
 <summary><h3>Install gcc if you don't have yeT</h3></summary>
 
-# _Linux_
-
-Arch
-```
-sudo pacman -Syu
-sudo pacman -S gcc
-```
-Dibian
-```
-sudo apt update && upgrade
-sudo apt install gcc
-```
-etc...
-
 # _Mac OS_
 Install homebrew
 ```
@@ -55,6 +41,19 @@ brew install gcc
 ```
 jj
 ```
+# _Linux_
+
+Arch
+```
+sudo pacman -Syu
+sudo pacman -S gcc
+```
+Dibian
+```
+sudo apt update && upgrade
+sudo apt install gcc
+```
+etc...
 
 </details>
 
