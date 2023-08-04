@@ -37,14 +37,22 @@ Install gcc
 brew install gcc
 ```
 # _Windows_
+
+> Using Cygwin
+> 
 > Download & Run setup-x86_64.exe from https://www.cygwin.com/install.html
 >
-> Select Packages: after selecting the download site on the app, it will ask you to Select the Packages
+> Install neccesary Packages: after selecting the download site on the app, it will ask you to Select the Packages, gcc-core for GCC
 >
-> Type gcc-core and continue
-```
-jj
-```
+> Using MinGW
+>
+> 1. Download and Run MinGW (https://sourceforge.net/projects/mingw-w64/files/)
+> 2. Follow the on screen instructions 
+> 3. Check the mingw-32-base and mingw-gcc-g++ > Click apply change, apply to save the change
+> 4. Press Windows key type environment. Click Edit System environment variables.
+> 5. Select Path under System variables, click Edit
+> 6. Add C:\MinGw\bin
+
 
 # _Linux_
 
