@@ -14,7 +14,7 @@ _Easy way to calulate your GPA for school_
 
 > No pencil required!
 
-# Installation
+# Installation: For Linux, Mac OS
 1. Clone the repository:
 ```console
 git clone https://github.com/Joint55internal/gpa-calculation.git
@@ -23,7 +23,7 @@ git clone https://github.com/Joint55internal/gpa-calculation.git
 ```console
 cd gpa-calculation
 ```
-3. Compile the source code:
+3. Compile the source code: 
 ```console
 gcc gpa.c -o gpa
 ```
