@@ -26,7 +26,7 @@ cd gpa-calculation
 ```
 3. Compile the source code:
 <details id=0>
-<summary><h2>Install gcc if you don't have ye/h2></summary>
+<summary><h3>Install gcc if you don't have yeT</h3></summary>
 
 # _Linux_
 
