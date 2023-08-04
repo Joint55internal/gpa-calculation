@@ -16,7 +16,7 @@ gpa-calculation can be used to easliy calulate your GPA. No pencil required!
 ```console
 git clone https://github.com/Joint55internal/gpa-calculation.git
 ```
-2. Navigate to Stucus:
+2. Navigate to gpa-calculation:
 ```console
 cd gpa-calculation
 ```
