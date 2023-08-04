@@ -63,10 +63,8 @@ brew install gcc
 > Select Packages: after selecting the download site on the app, it will ask you to Select the Packages
 >
 > Type gcc-core and continue
-```
-jj
-```
 
+etc...
 
 
 # _Linux_
