@@ -25,8 +25,8 @@ git clone https://github.com/Joint55internal/gpa-calculation.git
 cd gpa-calculation
 ```
 3. Compile the source code:
-
-_Install gcc if you don't have yet_
+<details id=0>
+<summary><h2>Install gcc if you don't have ye/h2></summary>
 
 # _Linux_
 
@@ -55,6 +55,9 @@ brew install gcc
 ```
 jj
 ```
+
+</details>
+
 ```console
 gcc gpa.c -o gpa
 ```
