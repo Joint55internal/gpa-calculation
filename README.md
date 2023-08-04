@@ -10,8 +10,8 @@ _ Easy way to calulate your GPA for school _
 
 ## Description
 gpa-calculation can be used to easliy calulate your GPA. No pencil required!
-<details id=0>
-<summary><h2>Installation</h2></summary>
+
+#Installation
 1. Clone the repository:
 ```console
 git clone https://github.com/Joint55internal/gpa-calculation.git
@@ -24,7 +24,6 @@ cd gpa-calculation
 ```console
 gcc gpa.c -o gpa
 ```
-</details>
 
 # Usage
 To calculate your GPA, execute the following command:
