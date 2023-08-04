@@ -40,6 +40,7 @@ sudo apt update && upgrade
 sudo apt install gcc
 ```
 etc...
+
 _Mac OS_
 ```
 brew install gcc
