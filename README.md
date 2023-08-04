@@ -1,6 +1,5 @@
 # gpa-calculation: 
 # Easy way to calulate your GPA for school
- ===========================================
 <p align="center">
   <a href="#installation">Installation</a> •
   <a href="#usage">Usage</a> •
