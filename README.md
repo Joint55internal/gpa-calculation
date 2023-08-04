@@ -11,6 +11,7 @@ _ Easy way to calulate your GPA for school _
 ## Description
 gpa-calculation can be used to easliy calulate your GPA. No pencil required!
 <details id=0>
+#
 <summary><h2>Installation</h2></summary>
 1. Clone the repository:
 ```console
