@@ -26,7 +26,9 @@ cd gpa-calculation
 ```
 3. Compile the source code:
 Install gcc if you don't have yet
+
 _Linux_
+
 Arch
 ```
 sudo pacman -Syu
