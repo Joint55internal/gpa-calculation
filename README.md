@@ -27,10 +27,14 @@ cd gpa-calculation
 3. Compile the source code:
 Install gcc if you don't have yet
 _Linux_
+Arch
 ```
+sudo pacman -Syu
 sudo pacman -S gcc
 ```
+Dibian
 ```
+sudo apt update && upgrade
 sudo apt install gcc
 ```
 etc...
