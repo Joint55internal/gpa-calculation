@@ -24,7 +24,6 @@ git clone https://github.com/Joint55internal/gpa-calculation.git
 ```console
 cd gpa-calculation
 ```
-3. Compile the source code:
 <details id=0>
 <summary><h3>Install gcc if you don't have yeT</h3></summary>
 
@@ -56,7 +55,9 @@ sudo apt install gcc
 etc...
 
 </details>
-Compile the source code:
+
+3. Compile the source code:
+
 ```console
 gcc gpa.c -o gpa
 ```
