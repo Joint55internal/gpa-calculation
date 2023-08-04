@@ -1,5 +1,5 @@
 # gpa-calculation: 
-# Easy way to calulate your GPA for school
+_ Easy way to calulate your GPA for school _
 <p align="center">
   <a href="#installation">Installation</a> •
   <a href="#usage">Usage</a> •
@@ -10,8 +10,8 @@
 
 ## Description
 gpa-calculation can be used to easliy calulate your GPA. No pencil required!
-
-# Installation
+<details id=0>
+<summary><h2>Installation</h2></summary>
 1. Clone the repository:
 ```console
 git clone https://github.com/Joint55internal/gpa-calculation.git
