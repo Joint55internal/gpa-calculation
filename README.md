@@ -25,7 +25,7 @@ git clone https://github.com/Joint55internal/gpa-calculation.git
 cd gpa-calculation
 ```
 <details id=0>
-<summary><h3>Install gcc (The GNU Compiler Collection) if you don't have yet</h3></summary>
+<summary><h3>Install gcc (The GNU Compiler Collection). Click here if you don't have yet</h3></summary>
 
 # _Mac OS_
 Install homebrew (https://brew.sh/)
