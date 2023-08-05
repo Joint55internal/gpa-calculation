@@ -89,7 +89,7 @@ void gpa_calc(void) {
     T4 = totalPoints4 / totalCourses;
 
     // Print the result with information about the student
-     if (C == 0 || C > 0) {
+     if (C == 0) {
         printf("=========================\n");
         printf("StudentName: %s\n", studentName);
         printf("StudentID: %d\n", studentID);
@@ -107,6 +107,17 @@ void gpa_calc(void) {
         printf("StudentID: %d\n", studentID);
         printf("Number of course: %d\n", totalCourses);
         printf("Number of course You've received Credit: %d\n", B);
+        printf ("Your GPA(5): %.2f\n", T);
+        printf ("Your GPA(4): %.2f\n", T4);
+        printf("=========================\n");
+    }
+    else if ( C > 0) {
+        printf("=========================\n");
+        printf("StudentName: %s\n", studentName);
+        printf("StudentID: %d\n", studentID);
+        printf("Number of course: %d\n", totalCourses);
+        printf("Number of course You've received Credit: %d\n", B);
+        printf("Number of course Failed: %d\n", C);
         printf ("Your GPA(5): %.2f\n", T);
         printf ("Your GPA(4): %.2f\n", T4);
         printf("=========================\n");
