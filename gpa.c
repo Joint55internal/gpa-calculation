@@ -133,6 +133,20 @@ void gpa_calc(void) {
         printf ("Your GPA(5): %.2f\n", T);
         printf ("Your GPA(4): %.2f\n", T4);
         printf("=========================\n");
+
+        FILE *fptr;
+        // Creat a file
+        fptr = fopen("mygpa.txt", "w");
+        if (fptr == NULL) {
+            printf("Error opening file.\n");
+        }
+        // Write result to the file
+        fprintf (fptr, "Student Name: %s\n", studentName);
+        fprintf (fptr, "Number of course: %d\n", totalCourses);
+        fprintf (fptr, "Your GPA (5 scale) is %.2f\n", T);
+        fprintf (fptr, "Your GPA (4 scale) is %.2f\n", T4);
+        fprintf (fptr, "*** **** *** ***\n");
+        fclose(fptr); 
     }
 }
 
